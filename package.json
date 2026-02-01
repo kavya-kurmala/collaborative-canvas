@@ -1,0 +1,14 @@
+{
+  "name": "collaborative-canvas",
+  "version": "1.0.0",
+  "description": "Multi-user collaborative drawing canvas",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  }
+}
